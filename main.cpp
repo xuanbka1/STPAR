@@ -3,15 +3,17 @@
 
 using namespace std;
 int main(){
-stack<int> mystack;
-int cnt = 1;
-bool ok = true;
+
+
 int n;
 //cout<<"so xe";
 cin>>n;
 
 while(n!=0)
 {
+stack<int> mystack;
+int cnt = 1;
+bool ok = true;
 int arr[n];
 
 for(int i=0; i<n; i++){
